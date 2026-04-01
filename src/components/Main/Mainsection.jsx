@@ -3,7 +3,7 @@ import React from 'react';
 const Mainsection = ({ active, setActive, cart }) => {
     return (
         <div className='mt-24 container mx-auto mb-16 px-4'>
-            {/* টেক্সট কন্টেন্ট */}
+          
             <div className="text-center mb-10">
                 <h1 className='font-extrabold text-[#101727] text-3xl md:text-5xl mb-5'>
                     Premium Digital Tools
@@ -14,7 +14,7 @@ const Mainsection = ({ active, setActive, cart }) => {
                 </p>
             </div>
 
-            {/* ফিগমা স্টাইল টগল বাটন গ্রুপ */}
+           
             <div className='flex justify-center'>
                 <div className='inline-flex p-1.5 bg-white border border-gray-100 rounded-[24px] shadow-sm'>
                     <button 
