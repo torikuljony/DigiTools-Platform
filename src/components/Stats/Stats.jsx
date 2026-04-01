@@ -27,4 +27,4 @@ const Stats = () => {
     );
 };
 
-export default Stats
+export default Stats;
