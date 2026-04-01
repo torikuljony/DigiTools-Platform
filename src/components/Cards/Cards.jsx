@@ -5,32 +5,7 @@ const Cards = ({ promiseData, cart, setCart }) => {
 
   useEffect(() => {
     
-    // const figmaContent = [
-    //   {
-    //     id: 1,
-    //     name: "Check Email",
-    //     price: "250",
-    //     description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    //     icon: "/products/email.png",
-    //     features: ["100% Secure Access", "Faster Email Delivery", "24/7 Expert Support"]
-    //   },
-    //   {
-    //     id: 2,
-    //     name: "Stock Market",
-    //     price: "450",
-    //     description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    //     icon: "/products/stock.png",
-    //     features: ["Real-time Analysis", "Market Alerts", "Expert Stock Insights"]
-    //   },
-    //   {
-    //     id: 3,
-    //     name: "AI Assistant",
-    //     price: "850",
-    //     description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    //     icon: "/products/ai.png",
-    //     features: ["Smart Automation", "Custom Workflows", "Priority AI Processing"]
-    //   }
-    // ];
+
 
     promiseData.then(data => {
      
